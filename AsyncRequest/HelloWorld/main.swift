@@ -1,6 +1,5 @@
 //
 //  main.swift
-//  HelloWorld
 //
 //  Created by Samil Abud on 7/17/24.
 //
@@ -39,8 +38,8 @@ struct MockEnvironment: EnvironmentProtocol {
 func testNetworkManagerCustomValidation() {
     // Create mock data
     let baseURL = URL(string: "https://6698464402f3150fb6708339.mockapi.io/api/test")!
-//    let path = "/testdata";
-    let path = "/failuretestdata";
+    //let path = "/testdata"; // Path with good data
+    let path = "/failuretestdata"; // Path with wrong data
     
     let endpoint = MockEndpoint(baseURL: baseURL, path: path, method: "GET", headers: nil, queryParams: nil, body: nil)
     let environment = MockEnvironment(apiBaseURL: baseURL, apiKey: "mock_api_key")

@@ -1,0 +1,15 @@
+{
+  "originHash" : "f0c5c74ac3714e97ca530d40b9b98e3aaac585c19dc5adfeb1acf1c6b275d51c",
+  "pins" : [
+    {
+      "identity" : "uniform-type-identifier-apple",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/shareup/uniform-type-identifier-apple",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b87dbce12d50e361344b339c786e3b8083795222"
+      }
+    }
+  ],
+  "version" : 3
+}
